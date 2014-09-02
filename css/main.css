@@ -1,9 +1,29 @@
 body{
-	background-color: purple;
+	background-color: gray;
 }
-.Henry-Ramirez{
-	text-align: center;
-    color: yellow;
-    border:2px solid;
-    border-color: black;
+.container{
+	border: 5px solid blue;
+    padding: 30px;
+}
+.row{
+	 border-color: green;
+	 text-align: left;
+     padding: 30px;
+}
+.col-xs-10{
+	border:5px solid purple;
+	text-align: left;
+	padding: 30px;
+
+}
+.col-xs-2{
+	border:5px solid purple;
+	text-align: left;
+	padding: 30px;
+}
+h1{
+	border: 5px solid lime;
+	text-align: left;
+	padding: 30px;
+
 }
