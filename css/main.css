@@ -1,29 +1,45 @@
-body{
-	background-color: gray;
-}
-.container{
-	border: 5px solid blue;
+body {
+    position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("../images/guiltycrown-1.jpg");
     padding: 30px;
 }
-.row{
-	 border-color: green;
-	 text-align: left;
-     padding: 30px;
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
-.col-xs-10{
-	border:5px solid purple;
-	text-align: left;
-	padding: 30px;
+p{
+  font-size: 350%;
+  text-align: center;
+    color: black;
 
 }
-.col-xs-2{
-	border:5px solid purple;
-	text-align: left;
-	padding: 30px;
+h1 {
+  font-size: 250%;
+  text-align: left;
+    color: black;
 }
-h1{
-	border: 5px solid lime;
-	text-align: left;
-	padding: 30px;
+.col-xs-2{
+  font-size: 90%;
+  text-align: left;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.listed-group-item{
+  border: 0;  
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
