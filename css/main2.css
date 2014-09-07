@@ -8,7 +8,7 @@ html, body {
 }
 
 h1 {
-  font-size: 100px;  
+  font-size: 90px;  
   margin: 20px 0;
   color: #505050;
 }
@@ -189,11 +189,6 @@ img.right {
 .large {
   font-size: 45px;
 }
-
-hoverblk {
-  transition: .3;
-}
-
 .hoverblk:hover {
   color: #5656B3;
   transition: .3s;
