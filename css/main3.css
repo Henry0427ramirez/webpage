@@ -3,11 +3,9 @@ body > div {
 		margin: 50px auto;
 		text-align: center;
 	}
-
 	figure {
 		margin: 0;
 	}
-
 	.container {
 		width: 500px;
 		height: 500px;
@@ -16,17 +14,15 @@ body > div {
 		-webkit-perspective: 2000px;
 		-webkit-perspective-origin: 50% -25%;
 	}
-
 		.carousel {
 			-webkit-transform-style: preserve-3d;
 			-webkit-transform: translateZ(-540px);
 			position: relative;
-			margin-left:-50px;
+			margin-left:-65px;
 			width: 600px;
 			height: 400px;
 			-webkit-transition: 1s;
 		}
-
 			.carousel img {
 				position: absolute;
 				border: 15px solid rgba(0, 0, 0, .8);
@@ -35,9 +31,7 @@ body > div {
         width: 600px;
         height: 500px;
         background:#ccc;
-			}
-
-				
+			}		
 				.carousel img:nth-child(1) { -webkit-transform: translateZ(540px) scale(.8); }
 				.carousel img:nth-child(2) { -webkit-transform: rotateY(45deg) translateZ(540px) scale(.8); }
 				.carousel img:nth-child(3) { -webkit-transform: rotateY(90deg) translateZ(540px) scale(.8); }
