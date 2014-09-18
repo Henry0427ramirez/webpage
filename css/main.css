@@ -8,6 +8,7 @@ body {
   background-image: url("../images/guiltycrown-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 #bg {
   position: fixed; 
@@ -43,4 +44,8 @@ h1 {
   border:0;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 959px) {
+
 }
