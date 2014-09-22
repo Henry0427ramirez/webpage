@@ -10,6 +10,12 @@ body {
   background-repeat: no-repeat;
 
 }
+.navbar-static-top
+{
+position: fixed;
+width: 100%;
+
+}
 #bg {
   position: fixed; 
   top: 0; 
@@ -20,6 +26,7 @@ body {
   min-height: 100%;
 }
 p{
+  padding: 35px;
   font-size: 450%;
   text-align: center;
     color: black;
