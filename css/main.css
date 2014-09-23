@@ -29,9 +29,11 @@ p{
   padding: 35px;
   font-size: 450%;
   text-align: center;
-    color: black;
+  color: black;
+  float: center;
 }
 h1 {
+  float: left;
   font-size: 300%;
   text-align: left;
     color: white;
@@ -51,19 +53,77 @@ h1 {
   border:0;
   margin-top: 30px;
   margin-bottom: 30px;
+  float: 30px;
 }
 
 
-@media screen and (max-width: 460px) {
-body{
+@media screen and (max-width: 320px , max-height:568px) {
+
+body {
+    position: fixed; 
+  top: 0; 
+  left: 0; 
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("../images/guiltycrown-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.navbar-static-top
+{
+position: fixed;
+width: 100%;
+
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+p{
+
   width: 100%;
   height: 100%;
-
+  padding: 35px;
+  font-size: 450%;
+  text-align: center;
+  color: black;
+  float: center;
+  position: fixed;
+}
+h1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  float: left;
+  font-size: 300%;
+  text-align: left;
+    color: white;
+ background-color:rgba(0,0,0,.6);   
 }
 .col-xs-10{
   width: 100%;
+  height: 100%;
+ color: white;
 }
 .col-xs-2{
-  width: 100%;
+  font-size: 90%;
+  text-align: left;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+.list-group-item{
+  border:0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: 30px;
+}
+
 }
