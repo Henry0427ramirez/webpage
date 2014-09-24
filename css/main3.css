@@ -93,5 +93,11 @@ body > div {
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
 	@media screen and (max-width: 460px) {
+		.carousel{
+			width: 100%;
+		}
+		.carousel img {
+			width: 100%;
+		}
 		
 	}
