@@ -11,6 +11,18 @@ body > div {
     width:100%;
     margin-top: -50px;
 	}
+	.container .left
+	{
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+    p
+	{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+	}
 	figure {
 		margin: 0;
 	}
@@ -92,12 +104,30 @@ body > div {
 		input[value="7"]:checked ~ .container .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
-	@media screen and (max-width: 460px) {
-		.carousel{
-			width: 100%;
-		}
-		.carousel img {
-			width: 100%;
-		}
-		
+@media screen and (max-width: 460px) {
+
+body > div {
+	width: 100%;
+	text-align: center;
+}
+.carousel{
+	width: 100%;
+	vertical-align: center;
+}
+.carousel img {
+	width: 100%;
+    vertical-align: center;
+}
+p{
+    width: 100%;
+    font-size:100%;
+    text-align: center;
 	}
+.container {
+	width: 100%;	
+}
+input{
+ width: 100%;
+ vertical-align: center;
+}
+}
