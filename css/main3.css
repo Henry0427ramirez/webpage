@@ -5,6 +5,11 @@ body > div {
 	margin: 50px auto;
 	text-align: center;
 }
+body
+{
+	background-color: #22D45A;
+	
+}
 .navbar-static-top{
     position: fixed;
     width:100%;
